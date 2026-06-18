@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rana Umar — Web Developer & Designer</title>
+
+    <!-- SEO Meta -->
+    <meta name="description" content="Rana Umar is a US-based Web Developer & Designer specializing in web design, frontend development, and full-stack web applications." />
+    <meta name="theme-color" content="#0a0a0a" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%234fc3f7'/><text x='50' y='68' font-size='60' font-family='Arial, sans-serif' font-weight='bold' text-anchor='middle' fill='%230a0a0a'>R</text></svg>">
+
+    <!-- Google Fonts - Optimized -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome - Minimal -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ===== SIMPLE BACKGROUND (No Heavy Animations) ===== -->
+    <div id="bg-gradient"></div>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#hero" class="logo">Rana<span>Umar</span></a>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact" class="nav-cta">Let's Talk</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <i class="fas fa-globe-americas"></i> Available across all US time zones
+                    </div>
+                    <h1>Web Development & Design That Drives <span>Business Growth</span></h1>
+                    <p class="hero-sub">
+                        From stunning designs to fully functional web applications — I build custom websites that help
+                        US businesses streamline operations and increase revenue.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#work" class="btn-primary">See My Work <i class="fas fa-arrow-right"></i></a>
+                        <a href="#contact" class="btn-secondary">Get a Free Quote</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div>
+                            <span class="stat-number" data-target="12">0+</span>
+                            <span class="stat-label">US Businesses Served</span>
+                        </div>
+                        <div>
+                            <span class="stat-number" data-target="4">0+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div>
+                            <span class="stat-number" data-target="100">0%</span>
+                            <span class="stat-label">Client Satisfaction</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="code-window">
+                        <div class="code-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span class="code-title">portfolio.js</span>
+                        </div>
+                        <div class="code-body">
+                            <pre><span class="code-keyword">const</span> <span class="code-var">umar</span> = <span class="code-bracket">{</span>
+    <span class="code-prop">role</span>: <span class="code-string">'Web Developer & Designer'</span>,
+    <span class="code-prop">stack</span>: <span class="code-string">'MERN | WordPress | Shopify'</span>,
+    <span class="code-prop">location</span>: <span class="code-string">'US Remote'</span>,
+    <span class="code-prop">clients</span>: <span class="code-number">12</span>,
+    <span class="code-prop">available</span>: <span class="code-boolean">true</span>
+<span class="code-bracket">}</span>
+
+<span class="code-function">function</span> <span class="code-method">buildWebsite</span>() <span class="code-bracket">{</span>
+    <span class="code-keyword">return</span> <span class="code-string">'Fast, Scalable, Beautiful'</span>
+<span class="code-bracket">}</span></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SERVICES SECTION ===== -->
+    <section id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">What I Do</span>
+                <h2>Web Design & Development Services</h2>
+                <p>From pixel-perfect designs to robust web applications — I handle everything your business needs online.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+                    <h3>UI/UX Web Design</h3>
+                    <p>Stunning, user-centric designs that convert visitors into customers.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-code"></i></div>
+                    <h3>Frontend Development</h3>
+                    <p>Responsive, fast-loading websites built with React.js, HTML5, CSS3, and JavaScript.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-server"></i></div>
+                    <h3>Full-Stack Web Apps</h3>
+                    <p>Scalable web applications with Node.js + Express backends and MongoDB databases.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-cart-plus"></i></div>
+                    <h3>E-commerce Solutions</h3>
+                    <p>Custom e-commerce stores, WooCommerce setups, and Shopify stores.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-wordpress"></i></div>
+                    <h3>WordPress Development</h3>
+                    <p>Custom WordPress themes, Elementor designs, and WooCommerce stores.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-headset"></i></div>
+                    <h3>Maintenance &amp; Support</h3>
+                    <p>Ongoing updates, security patches, and 24/7 uptime monitoring.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== WORK / PORTFOLIO SECTION ===== -->
+    <section id="work">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Portfolio</span>
+                <h2>Real Projects, Real Results</h2>
+                <p>Here are some of the websites and web applications I've built for US-based businesses.</p>
+            </div>
+
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+                <button class="filter-btn" data-filter="saas">Web Apps</button>
+                <button class="filter-btn" data-filter="local">Local Business</button>
+            </div>
+
+            <div class="work-grid">
+
+                <!-- Project 1: Carlos Plumbing -->
+                <div class="work-card" data-category="local">
+                    <div class="work-image">
+                        <div class="work-placeholder" style="background: linear-gradient(135deg, #1a1a2e, #16213e);">
+                            <img src="https://www.google.com/s2/favicons?domain=carlosplumbingelectrical.com&sz=128" 
+                                 alt="Carlos Plumbing" 
+                                 class="brand-logo" loading="lazy">
+                            <span>Carlos Plumbing</span>
+                        </div>
+                        <div class="work-overlay">
+                            <a href="https://carlosplumbingelectrical.com" target="_blank" class="work-link">
+                                <i class="fas fa-external-link-alt"></i> View Live
+                            </a>
+                        </div>
+                    </div>
+                    <div class="work-info">
+                        <span class="work-tag">Local Business</span>
+                        <h3>Carlos &amp; Sons Plumbing</h3>
+                        <p>Custom WordPress design with local SEO optimization.</p>
+                        <div class="work-tech">
+                            <span>WordPress</span><span>PHP</span><span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Happy Break Vending -->
+                <div class="work-card" data-category="saas">
+                    <div class="work-image">
+                        <div class="work-placeholder" style="background: linear-gradient(135deg, #1a1a2e, #2d1b69);">
+                            <img src="https://www.google.com/s2/favicons?domain=happybreakvending.ca&sz=128" 
+                                 alt="Happy Break Vending" 
+                                 class="brand-logo" loading="lazy">
+                            <span>Happy Break Vending</span>
+                        </div>
+                        <div class="work-overlay">
+                            <a href="https://happybreakvending.ca" target="_blank" class="work-link">
+                                <i class="fas fa-external-link-alt"></i> View Live
+                            </a>
+                        </div>
+                    </div>
+                    <div class="work-info">
+                        <span class="work-tag">Web App</span>
+                        <h3>Happy Break Vending</h3>
+                        <p>Lead generation platform with automated request system.</p>
+                        <div class="work-tech">
+                            <span>WordPress</span><span>Elementor</span><span>PHP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Dean's Greens -->
+                <div class="work-card" data-category="ecommerce">
+                    <div class="work-image">
+                        <div class="work-placeholder" style="background: linear-gradient(135deg, #1a2e1a, #2d5016);">
+                            <img src="https://www.google.com/s2/favicons?domain=shopdeansgreens.com&sz=128" 
+                                 alt="Dean's Greens" 
+                                 class="brand-logo" loading="lazy">
+                            <span>Dean's Greens</span>
+                        </div>
+                        <div class="work-overlay">
+                            <a href="https://www.shopdeansgreens.com" target="_blank" class="work-link">
+                                <i class="fas fa-external-link-alt"></i> View Live
+                            </a>
+                        </div>
+                    </div>
+                    <div class="work-info">
+                        <span class="work-tag">E-commerce</span>
+                        <h3>Dean's Greens</h3>
+                        <p>WooCommerce store with pre-order system.</p>
+                        <div class="work-tech">
+                            <span>WordPress</span><span>WooCommerce</span><span>PHP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Kabila Restaurant -->
+                <div class="work-card" data-category="local">
+                    <div class="work-image">
+                        <div class="work-placeholder" style="background: linear-gradient(135deg, #2e1a1a, #5d2e1b);">
+                            <img src="https://www.google.com/s2/favicons?domain=kabilarestaurant.com&sz=128" 
+                                 alt="Kabila Restaurant" 
+                                 class="brand-logo" loading="lazy">
+                            <span>Kabila Restaurant</span>
+                        </div>
+                        <div class="work-overlay">
+                            <a href="https://www.kabilarestaurant.com" target="_blank" class="work-link">
+                                <i class="fas fa-external-link-alt"></i> View Live
+                            </a>
+                        </div>
+                    </div>
+                    <div class="work-info">
+                        <span class="work-tag">Local Business</span>
+                        <h3>Kabila Restaurant</h3>
+                        <p>Modern brand website with custom UI/UX design.</p>
+                        <div class="work-tech">
+                            <span>React.js</span><span>Node.js</span><span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: MESH by Alex -->
+                <div class="work-card" data-category="ecommerce">
+                    <div class="work-image">
+                        <div class="work-placeholder" style="background: linear-gradient(135deg, #1a1a2e, #4a1942);">
+                            <img src="https://www.google.com/s2/favicons?domain=meshbyalex.com&sz=128" 
+                                 alt="MESH by Alex" 
+                                 class="brand-logo" loading="lazy">
+                            <span>MESH by Alex</span>
+                        </div>
+                        <div class="work-overlay">
+                            <a href="https://www.meshbyalex.com" target="_blank" class="work-link">
+                                <i class="fas fa-external-link-alt"></i> View Live
+                            </a>
+                        </div>
+                    </div>
+                    <div class="work-info">
+                        <span class="work-tag">E-commerce</span>
+                        <h3>MESH by Alex</h3>
+                        <p>Luxury Shopify store with custom product configurator.</p>
+                        <div class="work-tech">
+                            <span>Shopify</span><span>Liquid</span><span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6: TaskFlow -->
+                <div class="work-card" data-category="saas">
+                    <div class="work-image">
+                        <div class="work-placeholder" style="background: linear-gradient(135deg, #0d1b2a, #1b3a4b);">
+                            <i class="fas fa-tasks" style="font-size: 3rem; color: #4dd0e1;"></i>
+                            <span>TaskFlow</span>
+                        </div>
+                        <div class="work-overlay">
+                            <a href="#" class="work-link" onclick="alert('🚀 Demo available upon request!'); return false;">
+                                <i class="fas fa-play-circle"></i> View Demo
+                            </a>
+                        </div>
+                    </div>
+                    <div class="work-info">
+                        <span class="work-tag">Web App</span>
+                        <h3>TaskFlow — Task Management</h3>
+                        <p>Full-stack collaboration platform with real-time updates.</p>
+                        <div class="work-tech">
+                            <span>React.js</span><span>Node.js</span><span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROCESS SECTION ===== -->
+    <section id="process">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">How I Work</span>
+                <h2>From Idea to Launch in 4 Steps</h2>
+                <p>I keep you involved at every stage — no surprises, just results.</p>
+            </div>
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Discovery &amp; Design</h3>
+                        <p>Strategy call to understand your goals. I create wireframes and high-fidelity UI mockups in Figma.</p>
+                        <span class="step-duration">~1-2 Weeks</span>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Development</h3>
+                        <p>Clean, documented code with daily progress updates. I build your website or application with performance in mind.</p>
+                        <span class="step-duration">~3-5 Weeks</span>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Testing &amp; Refinement</h3>
+                        <p>Rigorous testing across all devices. You get 2 rounds of free revisions.</p>
+                        <span class="step-duration">~1 Week</span>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3>Launch &amp; Beyond</h3>
+                        <p>Deployment to production, 30 days of free support, and optional maintenance plans.</p>
+                        <span class="step-duration">Ongoing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS SECTION ===== -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Testimonials</span>
+                <h2>What My Clients Say</h2>
+                <p>Real feedback from business owners across the United States.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Rana built our entire service portal. He was communicative, delivered ahead of schedule, and the site has been running flawlessly."</p>
+                    <div class="testimonial-author">
+                        <strong>Carlos Rodriguez</strong>
+                        <span>Owner, Carlos &amp; Sons Plumbing — Dallas, TX</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"We needed a lead generation system urgently. Rana delivered in 3 weeks and the platform has saved us countless hours."</p>
+                    <div class="testimonial-author">
+                        <strong>Kristina Shurgalina</strong>
+                        <span>Director, Happy Break Vending — Vancouver, BC</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Rana completely transformed our online presence. The pre-order system he built is intuitive and our customers love it."</p>
+                    <div class="testimonial-author">
+                        <strong>Dean</strong>
+                        <span>Owner, Dean's Greens — Alsip, IL</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"I'm not technical, but Rana made the entire process easy. He explained everything in plain English."</p>
+                    <div class="testimonial-author">
+                        <strong>Kabila Management</strong>
+                        <span>Owner, Kabila Restaurant — Houston, TX</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Working with Rana was seamless. He understood our luxury brand and built a platform that matches our quality."</p>
+                    <div class="testimonial-author">
+                        <strong>Alex</strong>
+                        <span>Owner, MESH by Alex — Houston, TX</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FAQ SECTION ===== -->
+    <section id="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">FAQ</span>
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Do you work with US clients?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! I work remotely across all US time zones.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Do you do both design and development?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely! I handle everything from UI/UX design to full-stack development.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What's your typical turnaround time?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Most projects take 4-8 weeks depending on complexity.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Will my website be mobile-friendly?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely. All my designs are mobile-first.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Do you offer ongoing maintenance?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, I have monthly maintenance plans starting at $200/month.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How do payments work?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>50% upfront, 25% at design approval, 25% at launch.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-content">
+                    <span class="section-tag">Let's Build</span>
+                    <h2>Ready to Start Your Project?</h2>
+                    <p>I'm available for new projects. Let's hop on a 15-minute discovery call — it's free.</p>
+                    <div class="contact-info">
+                        <a href="mailto:umar70403@gmail.com"><i class="fas fa-envelope"></i> umar70403@gmail.com</a>
+                        <span><i class="fas fa-clock"></i> Reply within 24 hours</span>
+                    </div>
+                    <div class="contact-social">
+                        <a href="https://www.linkedin.com/in/ranaumarajaz/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/umar523" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-x-twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" placeholder="John Doe" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="john@company.com" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="budget">Estimated Budget</label>
+                        <select id="budget">
+                            <option value="">Select...</option>
+                            <option value="1.5k">$1,500 - $3,000</option>
+                            <option value="3.5k">$3,500 - $5,000</option>
+                            <option value="5k+">$5,000+</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Project Details</label>
+                        <textarea id="message" rows="4" placeholder="Tell me about your project..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+                    <div id="formStatus"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-brand">
+                    <a href="#hero" class="logo">Rana<span>Umar</span></a>
+                    <p>Web Developer &amp; Designer</p>
+                    <p class="footer-tagline">Building beautiful, functional websites for US businesses since 2022.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#services">Services</a>
+                    <a href="#work">Work</a>
+                    <a href="#process">Process</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-credit">
+                    <p>&copy; 2026 Rana Umar. Built with <i class="fas fa-heart" style="color: #ef4444;"></i> using the MERN Stack.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
